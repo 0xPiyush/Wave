@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="wave.splashController">
+   <center>
+      <ImageView fx:id="splashImage" fitHeight="200.0" fitWidth="629.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+         <Image url="@./assets/splash.png" />
+      </ImageView>
+   </center>
+</BorderPane>
